@@ -1,0 +1,30 @@
+.watch{
+  margin: 20px;
+}
+
+.title{
+  display: grid;
+  place-items: center;
+}
+
+.stock{
+  margin: 20px;
+  padding: 5px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  display: grid;
+  grid-template-columns: 2.5fr .5fr;
+}
+
+.remove{
+  background: rgba(109, 82, 184, 0.15);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7.5px );
+  -webkit-backdrop-filter: blur( 7.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

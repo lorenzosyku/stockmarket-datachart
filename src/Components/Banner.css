@@ -1,0 +1,66 @@
+.form_field{
+  margin: 20px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  display: grid;
+  grid-template-columns: 1.5fr .2fr .3fr;
+}
+
+.input{
+  margin: 10px;
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 15px;
+}
+
+.btn_search, .btn_add{
+  border: none;
+  outline: none;
+  margin-left: 3px;
+}
+
+.btn_search{
+  border: none;
+  outline: none;
+  background: rgba( 255, 255, 255, 0.25 );
+}
+
+.btn_add{
+  background: rgba(109, 82, 184, 0.15);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7.5px );
+  -webkit-backdrop-filter: blur( 7.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.info_section{
+  margin: 20px;
+  padding: 5px;
+  color: rgb(65, 64, 64);
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.title{
+  display: grid;
+  place-items: center;
+  color: rgb(223, 118, 114);
+}
+
+.green{
+  color:rgb(129, 197, 60)
+}
+
+.red{
+  color: red;
+}
