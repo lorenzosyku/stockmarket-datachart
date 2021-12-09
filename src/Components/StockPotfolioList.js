@@ -1,5 +1,4 @@
 import React, { useEffect} from 'react';
-//import {FiPlus} from "react-icons/fi";
 import '../Components/Watchlist.css'
 
 
