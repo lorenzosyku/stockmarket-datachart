@@ -105,8 +105,7 @@ function Banner({metaData, timeSeries, setTimeSeries, setMetaData, o, c, simbol,
   return (
     <div>
       <h1 className="title">WARNING: DO NOT USE THIS APP FOR REAL TIME TRADING!</h1>
-      <form type='submit' className="form_field">
-        
+      {simbol ? (<form type='submit' className="form_field">
         <input 
           className="input"
           ref={inputRef} 
@@ -115,8 +114,15 @@ function Banner({metaData, timeSeries, setTimeSeries, setMetaData, o, c, simbol,
         />
         <button className="btn_search" onClick={fetchData} ><FaSearch/></button>
         <button className="btn_add" onClick={(e) => {addToWatchlist(e)}}>add to watchlist</button>
-
-      </form>
+      </form>) : (<form type='submit' className="form_field_onebtn">
+        <input 
+          className="input"
+          ref={inputRef} 
+          type="text" 
+          placeholder='Symbol' 
+        />
+        <button className="btn_search" onClick={fetchData} ><FaSearch/></button>
+      </form>)}
       {simbol && o ? (<div className="info_section">
         <h2>{`Latest Update: ${date}`}</h2>
         <h2>{`Symbol: ${simbol}`}</h2>
